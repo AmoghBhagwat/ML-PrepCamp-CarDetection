@@ -10,7 +10,7 @@ The code and final weights are provided in the zip file. The best model is in `\
 All the code can be found [here](https://colab.research.google.com/drive/1sex9STWvqv1hBeJGI0slh6G01__fgETO?usp=sharing).
 
 ### Custom RCNN
-I have implemented the code for generating region proposals and trained a CNN for classfying the region proposals. Due to time constraints, I could integrate all the code together but it can be done so easily. Code can be found [here](https://colab.research.google.com/drive/1j7neHjlulyfK1yb_YQIhRKEvVfuPiP_I?usp=sharing)
+I have implemented the code for generating region proposals and trained a CNN for classfying the region proposals. Due to time constraints, I could not integrate all the code together but it can be done so easily. Code can be found [here](https://colab.research.google.com/drive/1j7neHjlulyfK1yb_YQIhRKEvVfuPiP_I?usp=sharing)
 
 ## Instance Segmentation
 ### Yolov5
