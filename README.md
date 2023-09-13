@@ -14,7 +14,7 @@ I have implemented the code for generating region proposals and trained a CNN fo
 
 ## Instance Segmentation
 ### Yolov5
-Kaggle notebook can be found [here](https://www.kaggle.com/code/amoametan/car-dataset-segmentation), and the weights which give the best accuracy [here](# UPLOADING )
+Kaggle notebook can be found [here](https://www.kaggle.com/code/amoametan/car-dataset-segmentation), and the weights which give the best accuracy [here](https://iitk-my.sharepoint.com/:u:/g/personal/bhagwata22_iitk_ac_in/EcIQ8NoMB1VLqouKrO1LvtoBtsHcYrISG_ODpvEhZFBv9Q?e=bJ7vta), which gives mAP of around 75% (the kaggle outputs got deleted while exporting so cannot provide exact metrics)
 
 ### Detectron2
 Can be found in the previous detectron2 colab file
