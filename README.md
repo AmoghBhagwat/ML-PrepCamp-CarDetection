@@ -19,3 +19,7 @@ Kaggle notebook can be found [here](https://www.kaggle.com/code/amoametan/car-da
 ### Detectron2
 Can be found in the previous detectron2 colab file, snd the weights are here: [detectron object detection](https://iitk-my.sharepoint.com/:u:/g/personal/bhagwata22_iitk_ac_in/EThbQHhbi8JDlLThyPnzUOsB473-RAM61cEr4XR6flD7Hw?e=YNNOLH), [detecton segmentation](https://iitk-my.sharepoint.com/:u:/g/personal/bhagwata22_iitk_ac_in/EcIQ8NoMB1VLqouKrO1LvtoBtsHcYrISG_ODpvEhZFBv9Q?e=bJ7vta)
 
+## Comparison of parameters
+I tried with 3 different batch sizes of 16, 32 and 48. As the batch size was increased, the training time decreased marginally, but the mAP values improved by a significant margin (0.44, 0.53, 0.61). The only downside of higher batch sizes is that it takes up more GPU memory.
+
+Hyperparameter tuning - I first used the basic `hyp.scratch.yaml` to train the dataset on pretrained model by freezing its backbone layers, and then `hyp.VOC.yaml` (which is used for finetuning) to further finetune the model. I also modified the value of `fl_gamma` (focal loss) to penalize the wrong predictions on the minority class more heavily due to the skewed nature of the dataset.
